@@ -1,6 +1,6 @@
 # Project name: "**COVID-19 Data Integration, Analysis, and Visualization Platform**"
  
-**Student’s name: Ņikita Hramčenko**
+## **Student’s name: Ņikita Hramčenko**
 
 The "COVID-19 Epidemiological Data" public dataset was used for this project. The analysis revealed many data tables, which can make the process very difficult. Consequently, table "ECDC\_GLOBAL" was selected for the main work, which contains country-specific data on cases, deaths, changes in the number of cases from the previous day, changes in the number of deaths from the previous day, population, date of record, and a few other columns that are less relevant. 
 
