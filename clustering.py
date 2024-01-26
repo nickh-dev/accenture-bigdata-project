@@ -58,4 +58,4 @@ df_sorted = df.sort_values(by='cluster')
 
 # Save the sorted DataFrame to a CSV file
 
-df_sorted.to_csv('clustering.csv', index=False)
+df_sorted.to_csv('csv_files/clustering.csv', index=False)

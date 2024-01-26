@@ -6,6 +6,7 @@ import plotly.express as px
 import pandas as pd
 import boto3
 import uuid
+from boto3.dynamodb.conditions import Key
 
 # Read the configuration file
 config = ConfigParser()
@@ -58,7 +59,7 @@ app.layout = html.Div([
     dcc.Graph(id='graph'),
     dcc.Input(id='username', type='text', placeholder='Enter your username'),
     dcc.Input(id='input', type='text', placeholder='Enter a comment'),
-    html.Button('Submit', id='submit-button', n_clicks=0)
+    html.Button('Submit', id='submit-button', n_clicks=0),
 ])
 
 # Define the callback to update the graph

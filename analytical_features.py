@@ -41,7 +41,7 @@ forecast['yhat_lower'] = forecast['yhat_lower'].clip(lower=0)
 forecast['yhat_upper'] = forecast['yhat_upper'].clip(lower=0)
 
 # Calculate the root mean squared error
-rmse = sqrt(mean_squared_error(df['y'], forecast['yhat'][:len(df)]))
+rmse = round(sqrt(mean_squared_error(df['y'], forecast['yhat'][:len(df)])),2)
 print(f'Test RMSE: {rmse}')
 
 # Rename the columns for better understanding
@@ -53,8 +53,14 @@ max_date = pd.to_datetime(df['ds'].max())
 # Filter the forecast data for future dates
 future_forecast = forecast[forecast['Date'] > max_date]
 
+# Cast the columns to integers using .loc
+future_forecast.loc[:, 'Predicted_Cases'] = future_forecast['Predicted_Cases'].astype(int)
+future_forecast.loc[:, 'Lower_Bound'] = future_forecast['Lower_Bound'].astype(int)
+future_forecast.loc[:, 'Upper_Bound'] = future_forecast['Upper_Bound'].astype(int)
+
+
 # Save the future forecast to a CSV file
-future_forecast[['Date', 'Predicted_Cases', 'Lower_Bound', 'Upper_Bound']].to_csv('forecast.csv', index=False)
+future_forecast[['Date', 'Predicted_Cases', 'Lower_Bound', 'Upper_Bound']].to_csv('csv_files/forecast.csv', index=False)
 
 # Close the engine
 engine.dispose()

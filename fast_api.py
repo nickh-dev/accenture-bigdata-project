@@ -58,13 +58,13 @@ def read_root():
                     height: 100vh;
                     font-size: 30px;
                     color: white;
-                    padding-right: 45%;
+                    padding-right: 50%;
                 }
             </style>
         </head>
         <body>
             <div class="center-screen">
-                Hello, welcome to my API for Accenture Big Data Engineering Bootcamp project <br>
+                Hello, welcome to my API for bootcamp project <br>
                 For user-friendly testing access '/docs' endpoint<br>
                 <br>
                 Created by Ņikita Hramčenko

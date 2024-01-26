@@ -84,6 +84,9 @@ conn.cursor().execute(create_new_table)
 drop_table_sql = "DROP TABLE IF EXISTS BIGDATA_PROJECT.PUBLIC.ECDC_GLOBAL_COPY;"
 conn.cursor().execute(drop_table_sql)
 
+# Drop augmented table
+drop_augmented_table = "DROP TABLE IF EXISTS BIGDATA_PROJECT.PUBLIC.LOCKDOWN_DATES;"
+conn.cursor().execute(drop_augmented_table)
 # Rename the new table to the name of the old table
 rename_table = "ALTER TABLE BIGDATA_PROJECT.PUBLIC.NEW_TABLE RENAME TO ECDC_GLOBAL_COPY;"
 conn.cursor().execute(rename_table)
