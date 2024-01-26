@@ -1,6 +1,6 @@
 Student’s name: Ņikita Hramčenko 
 
-Project name: "**COVID-19 Data Integration, Analysis, and Visualization Platform**" 
+**Project name: "**COVID-19 Data Integration, Analysis, and Visualization Platform**"**
 
 The "COVID-19 Epidemiological Data" public dataset was used for this project. The analysis revealed many data tables, which can make the process very difficult. Consequently, table "ECDC\_GLOBAL" was selected for the main work, which contains country-specific data on cases, deaths, changes in the number of cases from the previous day, changes in the number of deaths from the previous day, population, date of record, and a few other columns that are less relevant. 
 
@@ -206,10 +206,4 @@ Performance optimization on Snowflake processes ensures that the SQL queries on 
 - Use caching. 
   - Snowflake automatically caches query results, so if the same query will be run again, it will return the result from the cache. 
   - Running the same query multiple times will be faster after the first time. 
-- Write efficient queries. 
-
-**Conclusion** 
-
-To summarize all the work that has been done, I can say that it has been hard. The project involves a lot of challenging technologies. I had to do a lot of research, inspect GitHub repositories, read articles, do debugging, and have dialogs with AI assistants. Of course, this project needs additional optimization and expansion, as there are many ways to do it, but it is almost impossible to do it in the given timeframe. In the future I plan to continue optimizing and expanding this project, as it turned out to be very interesting. Unfortunately, I was not able to complete the ninth assignment because I am having trouble finding data to use the MATCH\_RECOGNIZE function to look for patterns in the data. I will continue to study this issue and will try to finish it in my free time. 
-
-All the Python scripts and CSV files with outputs can be found in my GitHub repository. 
+- Write efficient queries.
