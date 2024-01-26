@@ -1,0 +1,215 @@
+country_region,total_cases,total_deaths,cluster
+Afghanistan,49273.0,1971.0,0
+Sao Tome and Principe,1009.0,17.0,0
+Saint Vincent and the Grenadines,98.0,0.0,0
+Saudi Arabia,359888.0,6048.0,0
+Sierra Leone,2440.0,75.0,0
+Singapore,58320.0,29.0,0
+Slovakia,132984.0,1175.0,0
+"Korea, Republic of",43484.0,587.0,0
+South Sudan,3206.0,62.0,0
+Suriname,5353.0,117.0,0
+Rwanda,6659.0,56.0,0
+Sweden,320098.0,7514.0,0
+United Arab Emirates,184949.0,617.0,0
+Vanuatu,1.0,0.0,0
+Wallis and Futuna,3.0,0.0,0
+Zimbabwe,11246.0,307.0,0
+Estonia,18055.0,149.0,0
+Falkland Islands (Malvinas),19.0,0.0,0
+French Polynesia,15618.0,91.0,0
+Gambia,3782.0,123.0,0
+Grenada,69.0,0.0,0
+Timor-Leste,31.0,0.0,0
+Qatar,140961.0,240.0,0
+Puerto Rico,107158.0,1272.0,0
+Panama,193007.0,3356.0,0
+Kenya,91892.0,1587.0,0
+Kosovo,46580.0,1198.0,0
+Lao People's Democratic Republic,41.0,0.0,0
+Jamaica,11710.0,273.0,0
+Lebanon,146520.0,1200.0,0
+Lesotho,2250.0,44.0,0
+Western Sahara,766.0,1.0,0
+Libya,90779.0,1299.0,0
+Lithuania,95021.0,825.0,0
+Malawi,6066.0,187.0,0
+Malaysia,83475.0,415.0,0
+Maldives,13368.0,48.0,0
+Malta,11101.0,166.0,0
+Mauritania,10780.0,222.0,0
+Mauritius,515.0,10.0,0
+"Moldova, Republic of",126518.0,2572.0,0
+Mongolia,912.0,0.0,0
+Montenegro,41426.0,582.0,0
+Morocco,399609.0,6624.0,0
+Niger,2258.0,80.0,0
+Oman,126240.0,1471.0,0
+Guam,7106.0,118.0,0
+Guatemala,129282.0,4423.0,0
+Isle of Man,370.0,25.0,0
+Jordan,259614.0,3365.0,0
+Sri Lanka,32790.0,152.0,0
+Switzerland,372329.0,5378.0,0
+Syrian Arab Republic,9166.0,518.0,0
+"Taiwan, Province of China",740.0,7.0,0
+Tajikistan,12704.0,88.0,0
+Thailand,4237.0,60.0,0
+Togo,3251.0,66.0,0
+Trinidad and Tobago,6879.0,122.0,0
+Tunisia,111361.0,3894.0,0
+Turks and Caicos Islands,769.0,6.0,0
+Uganda,27532.0,221.0,0
+"Tanzania, United Republic of",509.0,21.0,0
+Uruguay,9708.0,92.0,0
+Uzbekistan,75094.0,612.0,0
+"Venezuela, Bolivarian Republic of",107177.0,949.0,0
+Viet Nam,1397.0,35.0,0
+Yemen,2083.0,606.0,0
+Marshall Islands,4.0,0.0,0
+Nicaragua,5887.0,162.0,0
+Slovenia,96314.0,1459.0,0
+"Virgin Islands, U.S.",1807.0,23.0,0
+Somalia,4579.0,121.0,0
+Kazakhstan,186277.0,2552.0,0
+Solomon Islands,17.0,0.0,0
+Seychelles,187.0,0.0,0
+Kuwait,146218.0,911.0,0
+Kyrgyzstan,77674.0,1312.0,0
+Latvia,25675.0,349.0,0
+Monaco,668.0,2.0,0
+Mozambique,16954.0,142.0,0
+Myanmar,108342.0,2268.0,0
+Namibia,16536.0,160.0,0
+Montserrat,13.0,1.0,0
+New Caledonia,36.0,0.0,0
+New Zealand,1740.0,25.0,0
+Nigeria,73175.0,1197.0,0
+North Macedonia,73638.0,2121.0,0
+Northern Mariana Islands,113.0,2.0,0
+Norway,40022.0,387.0,0
+"Palestine, State of",124657.0,1079.0,0
+Papua New Guinea,725.0,8.0,0
+Portugal,348744.0,5559.0,0
+Saint Kitts and Nevis,27.0,0.0,0
+Saint Lucia,275.0,4.0,0
+San Marino,1947.0,51.0,0
+Senegal,17075.0,349.0,0
+Sint Maarten (Dutch part),1232.0,26.0,0
+Jersey,1779.0,32.0,0
+Liberia,1676.0,83.0,0
+Ireland,76185.0,2124.0,0
+Cambodia,359.0,0.0,0
+Cameroon,25143.0,443.0,0
+Cabo Verde,11357.0,110.0,0
+Cayman Islands,298.0,2.0,0
+Chad,1770.0,102.0,0
+China,92021.0,4739.0,0
+Comoros,628.0,7.0,0
+Congo,6049.0,99.0,0
+Costa Rica,150947.0,1895.0,0
+Côte d'Ivoire,21680.0,133.0,0
+Croatia,175886.0,2640.0,0
+Cyprus,15101.0,78.0,0
+Dominica,87.0,0.0,0
+Dominican Republic,154692.0,2361.0,0
+Ethiopia,116769.0,1806.0,0
+Faroe Islands,528.0,0.0,0
+Eswatini,6768.0,127.0,0
+Ghana,53014.0,327.0,0
+Israel,357859.0,2999.0,0
+Guinea,13420.0,79.0,0
+Holy See (Vatican City State),26.0,0.0,0
+Burundi,729.0,1.0,0
+Bulgaria,179449.0,5688.0,0
+Brunei Darussalam,152.0,3.0,0
+"Virgin Islands, British",76.0,1.0,0
+Albania,48530.0,1003.0,0
+Algeria,92102.0,2596.0,0
+Andorra,7338.0,79.0,0
+Angola,16188.0,371.0,0
+Anguilla,10.0,0.0,0
+Antigua and Barbuda,148.0,4.0,0
+Armenia,148682.0,2503.0,0
+Aruba,5049.0,46.0,0
+Australia,28031.0,908.0,0
+Azerbaijan,175874.0,1922.0,0
+Japan,179653.0,2585.0,0
+Austria,320036.0,4400.0,0
+Bahrain,89143.0,348.0,0
+Barbados,292.0,7.0,0
+Belarus,160295.0,1263.0,0
+Belize,9295.0,195.0,0
+Bermuda,431.0,9.0,0
+"Bolivia, Plurinational State of",147150.0,9018.0,0
+"Bonaire, Sint Eustatius and Saba",173.0,3.0,0
+Bosnia and Herzegovina,101117.0,3336.0,0
+Botswana,12501.0,37.0,0
+Bhutan,438.0,0.0,0
+Bahamas,7674.0,163.0,0
+Liechtenstein,1514.0,18.0,0
+Zambia,18274.0,367.0,0
+Luxembourg,41272.0,396.0,0
+Gibraltar,1075.0,5.0,0
+Haiti,9565.0,234.0,0
+Guyana,5920.0,155.0,0
+"Congo, The Democratic Republic of the",14512.0,355.0,0
+Denmark,109758.0,941.0,0
+Guinea-Bissau,2444.0,44.0,0
+Djibouti,5728.0,61.0,0
+Guernsey,289.0,13.0,0
+Egypt,121575.0,6920.0,0
+El Salvador,41880.0,1205.0,0
+Equatorial Guinea,5185.0,85.0,0
+Eritrea,711.0,0.0,0
+Fiji,46.0,2.0,0
+Finland,30810.0,453.0,0
+Greenland,19.0,0.0,0
+Gabon,9330.0,63.0,0
+Georgia,191063.0,1839.0,0
+Cuba,9423.0,137.0,0
+Honduras,114359.0,2975.0,0
+Curaçao,3624.0,11.0,0
+Central African Republic,4936.0,63.0,0
+Madagascar,17638.0,258.0,0
+Mali,5814.0,194.0,0
+Iceland,5557.0,28.0,0
+Nepal,248423.0,1698.0,0
+Paraguay,93582.0,1953.0,0
+Serbia,266432.0,2331.0,0
+Sudan,21386.0,1347.0,0
+Greece,124534.0,3625.0,0
+Benin,3090.0,44.0,0
+Hungary,283870.0,7130.0,0
+Cases on an international conveyance Japan,696.0,7.0,0
+Burkina Faso,4030.0,71.0,0
+United States,16256754.0,299177.0,1
+India,9884100.0,143355.0,2
+Brazil,6901952.0,181402.0,2
+Italy,1843712.0,64520.0,3
+"Iran, Islamic Republic of",1108269.0,52196.0,3
+United_Kingdom,1849403.0,64170.0,3
+Argentina,1498160.0,40766.0,3
+France,2376852.0,57911.0,3
+Colombia,1425774.0,39053.0,3
+Russian Federation,2653928.0,46941.0,3
+Spain,1730575.0,47624.0,3
+Mexico,1250044.0,113953.0,3
+Ukraine,900666.0,15247.0,4
+Poland,1135676.0,22864.0,4
+Pakistan,440787.0,8832.0,4
+Bangladesh,490533.0,7052.0,4
+Netherlands,612746.0,10034.0,4
+Ecuador,202110.0,13875.0,4
+Canada,460743.0,13431.0,4
+Peru,984973.0,36677.0,4
+Czechia,581079.0,9609.0,4
+Philippines,449400.0,8733.0,4
+Romania,556335.0,13385.0,4
+Chile,571919.0,15886.0,4
+South Africa,860964.0,23276.0,4
+Belgium,608001.0,17951.0,4
+Germany,1337078.0,21975.0,4
+Iraq,574634.0,12579.0,4
+Turkey,995471.0,16199.0,4
+Indonesia,617820.0,18819.0,4
