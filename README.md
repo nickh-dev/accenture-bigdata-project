@@ -1,4 +1,4 @@
-#Project name: "**COVID-19 Data Integration, Analysis, and Visualization Platform**"
+# Project name: "**COVID-19 Data Integration, Analysis, and Visualization Platform**"
  
 **Student’s name: Ņikita Hramčenko**
 
