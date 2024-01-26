@@ -72,17 +72,9 @@ In the third task I was asked to design a schema for NoSQL database. I’ve used
 
 Schema consists of table name, key schema, which specifies the primary key with hash key type. It also includes attribute definitions and their types, and provisioned throughput, which specify the read and write capacity units. 
 
-![](https://github.com/nickh-dev/accenture-bigdata-project/blob/main/readme_images/Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.001.jpeg)
-
-1\.1. Img. Schema design 
-
 This schema just defines the attributes for the primary key and optionally for secondary indexes. The other attributes in the items can vary. 
 
 **Demonstration of DynamoDB tables in AWS account:** 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.002.jpeg)
-
-2\.1 . Img. DynamoDB NoSQL tables 
 
 To be able to use DynamoDB I was required to install AWS CLI and configure it with my AWS account credentials and region 
 
@@ -122,39 +114,7 @@ For the fourth task API was developed for querying Snowflake data based on user 
 
 For user-friendly interaction you can use /docs endpoint to test endpoints with different methods using UI interface. Choose the endpoint you want to test and click on ‘Try it now’ button. 
 
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.003.jpeg)
-
-3\.1. Img. Root endpoint 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.004.jpeg)
-
-3\.2.Img. Query endpoint 
-
 To test GET and POST methods for metadata endpoints you need to copy unique identifier. which is the value for data\_point\_id key on the top of json response. 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.005.jpeg)
-
-3\.3.Img. Metadata endpoint with POST method 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.006.jpeg)
-
-3\.4.Img. Response for POST method 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.007.jpeg)
-
-3\.5.Img. Supplementary data table overview 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.008.jpeg)
-
-6. Img. Document overview 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.009.jpeg)
-
-7. Img. GET method for metadata endpoint 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.010.png)
-
-3\.8.Img. Cache status endpoint 
 
 **Task 5. Interactive Visualization with Python** 
 
@@ -179,14 +139,6 @@ Interactive visualization was created with Dash and  Plotly Python libraries, wi
 
 - (plotly.express (as px)) is a high-level interface for data visualization. 
 - (boto3.dynamodb.conditions.Key) class in the boto3.dynamodb.conditions module is used to define conditions for querying and scanning data in DynamoDB. 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.011.jpeg)
-
-1. Img. Interactive visualization overview 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.012.jpeg)
-
-2. Img. DynamoDB overview for adding user comments on visualization. 
 
 **Task 6. Analytical Features** 
 
@@ -216,14 +168,6 @@ For time series forecasting I choose to predict COVID-19 infection cases for fut
 - (sqlalchemy.create\_engine) function from the SQLAlchemy library in Python is used to create a new SQLAlchemy engine, which provides a source of database connectivity. 
 - (prophet.Prophet) class from the Prophet library in Python is used to create a new Prophet forecasting model. Prophet is a procedure for forecasting time series data. Prophet was designed by Facebook. 
 
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.013.png)
-
-1. Img. Root mean squared error. 
-
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.014.png)
-
-2. Img. First 10 days of prediction 
-
 You can view complete csv file with all predictions for a year by accessing forecast.csv file inside csv\_files folder. 
 
 For the clustering task I’ve segmented regions based on similarities in COVID-19 spread patterns. 
@@ -249,9 +193,7 @@ For the clustering task I’ve segmented regions based on similarities in COVID-
 
 You can view complete csv file with all cluster groups by accessing clustering.csv file inside csv\_files folder. 
 
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.015.png)
-
-6\.1. Img. First 10 rows from clustering csv file. **Task 7. Performance Optimization** 
+**Task 7. Performance Optimization** 
 
 Performance optimization on Snowflake processes ensures that the SQL queries on the COVID-19 dataset are optimized for performance. The worksheet with queries can be found by name ‘Performance optimization’. 
 
