@@ -72,7 +72,7 @@ In the third task I was asked to design a schema for NoSQL database. I’ve used
 
 Schema consists of table name, key schema, which specifies the primary key with hash key type. It also includes attribute definitions and their types, and provisioned throughput, which specify the read and write capacity units. 
 
-![](Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.001.jpeg)
+![](https://github.com/nickh-dev/accenture-bigdata-project/blob/main/readme_images/Aspose.Words.6a58e91f-1037-4867-b0e3-e5a9aa65271b.001.jpeg)
 
 1\.1. Img. Schema design 
 
